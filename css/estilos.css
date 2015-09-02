@@ -1,0 +1,343 @@
+.footer {
+text-align: center;
+position: relative;
+}
+
+
+
+
+
+.campos{
+	border:1px solid #666666;
+	background-color:#FFFFFF;
+	font-family:Verdana;
+	font-size:9px;
+	height:11px;
+	text-transform: uppercase;
+	}
+	
+.select{
+	border:1px solid #333333;
+	background-color:#FFFFFF;
+	font-family:Verdana;
+	font-size:9px;
+	color:#666666;
+	height:18px;
+	left:0px;
+	
+	}
+	
+.botaoform {
+
+	background-color:#FFFFFF;
+	background-repeat:repeat-x;
+	color:#000000;
+	border:1px solid #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+	
+	
+#tabela {
+	position:absolute;
+	background-image:url(../imagens/fundo.jpg);
+	width:671px;
+	height:880px;
+	left:50%;
+	top:1px;
+	padding:4px;
+	margin-left:-339px;
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+}
+
+#passageiros {
+position:absolute;
+width:671px;
+height:860px;
+left:50%;
+top:1px;
+padding:4px;
+margin-left:-342px;
+background-color:#FFFFFF;
+background-repeat:no-repeat;
+}
+
+#topo_pass{
+background-image:url(../imagens/topo.jpg);
+width:671px;
+height:71px;
+padding:4px;
+background-color:#FFFFFF;
+background-repeat:no-repeat;
+}
+
+#meio_pass{
+	float:left;
+	background-image:url(../imagens/passageiros.jpg);
+	width:671px;
+	height:220px;
+	padding:3px;
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+	border:1px border red;
+}
+
+#rodape_pass{
+	float:left;
+	background-image:url(../imagens/rodape.jpg);
+	width:671px;
+	height:30px;
+	padding:4px;
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+}
+
+#tab_pass{
+	margin-left:15px;
+}
+
+#botao{
+	position:absolute;
+	margin-left:280px;
+	top:275px;
+}
+
+#botao_pass{
+margin-left:285px;
+}
+
+#teste01{
+	position:absolute;
+	margin-left:1px;
+}
+
+#teste2{
+	position:absolute;
+	margin-left:400px;
+}
+
+#tit_passageiro{
+font-family:Verdana;
+font-size:12px;
+color:#333333;
+margin-left:45px;
+}
+
+#tit_cheque{
+font-family:Verdana;
+font-size:11px;
+color:#333333;
+margin-left:4px;
+}
+
+td{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+
+.title{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:center;
+}
+
+
+
+hr{
+color:#999999;
+}
+
+#total_pass{
+position:absolute;
+width:400px;
+height:20px;
+/*border:1px solid red;*/
+left:350px;
+top:130px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+#dados_pacote{
+position:absolute;
+width:620px;
+height:160px;
+/*border:1px solid red;*/
+top:200px;
+left:26px;
+}
+#dados_pessoais{
+	position:absolute;
+	width:610px;
+	height:200px;
+	/*border:1px solid red;*/
+top:320px;
+	left:26px;
+}
+
+#endereço{
+	position:absolute;
+	width:618px;
+	height:122px;
+	/*border:1px solid red;*/
+top:528px;
+	left:26px;
+}
+
+#dados_empresa{
+	position:absolute;
+	width:610px;
+	height:137px;
+	/*border:1px solid red;*/
+top:687px;
+	left:26px;
+}
+
+#prov2{
+position:absolute;
+width:400px;
+height:450px;
+top:750px;
+}
+
+#tp_pacote{
+position:absolute;
+width:285px;
+height:20px;
+top:130px;
+left:26px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+
+#loc_saida{
+position:absolute;
+width:350px;
+height:20px;
+top:160px;
+left:26px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+
+.loc_chegada{
+position:absolute;
+width:350px;
+height:20px;
+top:160px;
+left:350px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+
+.dt_ida{
+position:absolute;
+width:300px;
+height:20px;
+top:190px;
+left:26px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+
+.dt_chegada{
+position:absolute;
+width:295px;
+height:20px;
+top:190px;
+left:350px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+
+.periodo_p1{
+position:absolute;
+width:300px;
+height:20px;
+top:220px;
+left:26px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+
+.periodo_p2{
+position:absolute;
+width:295px;
+height:20px;
+top:220px;
+left:350px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-align:left;
+}
+
+.eu_sou{
+	position:absolute;
+	width:616px;
+	height:171px;
+	top:117px;
+	left:25px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	text-align:left;
+}
+
+#gravar{
+position:absolute;
+width:60px;
+height:20px;
+top:830px;
+left:300px;
+}
+#meio_login {
+	float:left;
+	background-image:url(../imagens/login.jpg);
+	width:671px;
+	height:80px;
+	padding:4px;
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+	border:1px border red;
+}
+#rodape_login {
+	float:left;
+	background-image:url(../imagens/rodape.jpg);
+	width:671px;
+	height:210px;
+	padding:4px;
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+}
+
+
+.style1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.iframemain {
+  width:99%;
+  height:800px;
+}

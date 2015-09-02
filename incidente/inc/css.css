@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+a:link {text-decoration:none; color:#0000FF;}	/* unvisited link */
+a:visited {text-decoration:none; color:#0000FF;}	/* visited link */
+a:hover {text-decoration:underline; color:#0000FF;}	/* mouse over link */
+a:active {text-decoration:underline; color:#0000FF;}	/* selected link */
+
+
+/*TABELA DE LISTAGEM DOS INCIDENTES ABERTOS*/
+	table#alter {
+		font-size:12px;
+	}
+	
+	table#alter tr th { /* Cabeçalho com fundo cinza escuro */
+		background: #4472c4;
+		color:#FFF;
+		} 
+	
+	table#alter tr td { /* Toda a tabela com fundo creme */
+		background: #fff;
+		text-align:center;
+		} 
+	table#alter tr.dif td {
+		background: #e5e5e5; /* Linhas com fundo cinza */
+		}
+		
+	table#alter tr th.im {/*Tamanho da coluna de IM e Data*/
+		width:15px;
+		}
+	
+	table#alter tr th.descricao {/*Tamanho da coluna de Descrição*/
+		width:200px;
+		}
+	
+	table#alter tr th.data { /*Tamanho da coluna de Data*/
+		width:50px;
+		}
+	
+	table#alter tr td.descricao { /* Alinhando coluna descrição a esquerda */
+		text-align:left;
+		} 
+	
+
+/*TABELA DE INCIDENTES */
+	table#incidente {
+		font-size:12px;
+		font-family:Verdana,Arial;
+	}
+
+	table#incidente tr th { /* Cabeçalho com fundo cinza escuro */
+		background: #4472c4;
+		color:#FFF;
+		width:120px;
+		} 
+
+	table#incidente tr td { /* Toda a tabela com fundo creme */
+		background: #fff;
+		text-align:center;
+		} 
+
+
+.botaoform {
+	background-color:#FFFFFF;
+	background-repeat:repeat-x;
+	color:#000000;
+	border:1px solid #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}

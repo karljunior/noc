@@ -1,0 +1,28 @@
+@charset "utf-8";
+body {
+	margin:0px;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+div.principal {
+	background-color: #DADADA;
+	vertical-align: middle;
+	border: thin solid #666666;
+	height: auto;
+	width: 700px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+
+.botaoform {
+
+	background-color:#FFFFFF;
+	background-repeat:repeat-x;
+	color:#000000;
+	border:1px solid #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}

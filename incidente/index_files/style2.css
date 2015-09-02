@@ -1,0 +1,123 @@
+/*
+Modern table design - template
+Download more PSD stuff from www.psdgraphics.com
+*/
+
+body {
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+table {
+	width:100%;
+	border-spacing:3px;
+	border:0;
+}
+
+table th {
+	background-color:#74A2FF;
+	height: 25px;
+	text-align: center;
+	color:white;
+	width:100px;
+	font: 12px Verdana, Arial;
+	font-weight: bold;
+}
+
+table tr {
+	background-color:#FFF;
+	height: 30px;
+	color:#000;
+}
+
+table.lista td {
+	width:200px;
+}
+
+
+.tablesup {
+	width: 800px;
+
+}
+
+
+#_middle {
+	float:left;
+	width: 800px;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: #fff ;
+}
+
+div {
+	width: 800px;
+}
+
+._escalation {
+	margin:0;
+	padding: 10px 0 10px 0px;
+	width: 800px;
+	text-align: left;
+
+	color:#000;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: #fff url(images/center-blue.png) repeat-y left top;
+	font-weight: bold;
+	word-wrap:break-word;
+}
+
+._classe {
+	float:left;
+	margin:0;
+	padding: 10px 0px 0px 0px;
+	width: 800px;
+	text-align: center;
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color:#FFF;
+	background: #FF9100;
+	height:25px;
+}
+
+._topo {
+	float:left;
+	margin:0;
+	padding: 0px 0 0px 0px;
+	width: 650px;
+	text-align: center;
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color:#000;
+	background: #FFF;
+	height:50px;
+}
+
+._left {
+	float:left;
+	margin:0;
+	padding: 10px 0 10px 0px;
+	width: 150px;
+	background: #FF0;
+	height:50px;
+}
+
+._leftimg{
+	float:left;
+	margin:0;
+	padding: 10px 0 10px 0px;
+	width: 150px;
+	height:50px;
+	background: #FFF url('../img/logo_peq.png') no-repeat;
+	background-size: contain;
+	background-position:0px 10px;
+	
+}
+
+._footer{
+	float:left;
+	margin:0;
+	padding: 10px 0 10px 0px;
+	width: 800px;
+	height:50px;
+	text-align:center;
+
+}
